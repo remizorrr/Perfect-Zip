@@ -176,10 +176,10 @@ public class Zip {
             thisZip.close()
         }
 
-        // make sure destination file is a .zip extension
-        guard zipFilePath.hasSuffix(".zip") else {
-            return ZipStatus.ZipFail
-        }
+//        // make sure destination file is a .zip extension
+//        guard zipFilePath.hasSuffix(".zip") else {
+//            return ZipStatus.ZipFail
+//        }
 
         // check to make sure destination zip can be created or overwritten
         if overwrite == false {
